@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#login_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../image/bg.jpg) no-repeat;
+}
+#login_form .form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #dc3545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_form .form-box h2{
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+}
+#login_form  .inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+}
+
+
+#login_form  .inputbox label {
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    transform: translateY(-16px);
+    color: #eee;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.forget label input {
+    margin: 6px;
+}
+.forget label a {
+   color: #fff;
+   text-decoration: none;
+
+}
+.forget label a:hover {
+    text-decoration: underline;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #eee;
+}
+.register {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin: 25px 0 10px;
+}
+.register p {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.register p a:hover {
+    text-decoration: underline;
+    color: #fff;
+   
+   }
+.register p a{
+ text-decoration: none;
+ color: #fff;
+
+}
